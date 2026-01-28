@@ -1,5 +1,10 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "air"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  
 title: "Joseph Lipe"
 name: "Joey Lipe"
 description: "Data Analyst Portfolio"
