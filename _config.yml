@@ -1,0 +1,78 @@
+### Site Settings ###
+title               : portfolYOU
+description         : >-
+                      I turn coffee :coffee: into code,
+                      use tabs over spaces
+                      and never broke production.
+baseurl             : ""
+repository          : joeylipe/joeylipe.github.io
+remote_theme        : yousinix/portfolYOU
+open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Joseph Lipe
+  image             : https://i.imgur.com/uyDNQnn.jpg
+  email             : josephlipe480@gmail.com
+  github            : joeylipe
+  linkedin          : joseph-lipe
+
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: True
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
