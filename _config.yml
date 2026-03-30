@@ -1,9 +1,8 @@
 ### Site Settings ###
 title               : Joseph Lipe
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+  A professional portfolio focused on 
+  high-precision coordination and analytical problem-solving.
 baseurl             : ""
 repository          : joeylipe/joeylipe.github.io
 remote_theme        : yousinix/portfolYOU
