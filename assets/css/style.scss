@@ -1,0 +1,4 @@
+/* Remove the theme toggle button from the navbar */
+.theme-toggle, #theme-toggle, .dark-mode-toggle {
+    display: none !important;
+}
