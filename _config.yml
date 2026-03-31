@@ -30,11 +30,6 @@ author:
   linkedin          : joseph-lipe
 
 
-
-### Posts ###
-permalink: /blog/:title
-
-
 ### Collections ###
 collections:
   projects:
