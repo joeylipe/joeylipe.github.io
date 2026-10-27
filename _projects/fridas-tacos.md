@@ -1,46 +1,58 @@
 ---
 name: Frida's Tacos — Website & Online Ordering
 tools: [HTML, CSS, Vanilla JavaScript, Cloudflare Pages, SpotOn]
-image: /assets/images/projects/fridas-tacos/cover.png
-description: A custom restaurant website and integrated SpotOn ordering experience for a local family-owned restaurant.
+image: /assets/images/projects/fridas-tacos/fridas-tacos-homepage.png
+description: A website for a local Mexican restaurant, featuring essential business information, menu access, photo galleries, and online ordering.
 card_title: Frida’s Tacos — Website & Online Ordering
 card_description: A website for a local Mexican restaurant, featuring essential business information, menu access, photo galleries, and online ordering.
 card_tools: [AI-Assisted Development, Web Design, Deployment]
 ---
 
-# Frida's Tacos — Website & Online Ordering
+# Frida’s Tacos — Website & Online Ordering
+
+<img src="{{ site.baseurl }}/assets/images/projects/fridas-tacos/fridas-tacos-homepage.png" alt="Frida’s Tacos homepage showing the restaurant’s navigation, featured tacos, and online ordering call to action" class="img-fluid" />
+
+[**Visit the Live Website**](https://eatfridastacos.com/)
 
 ## Overview
 
-Frida's Tacos is a local family-owned restaurant establishing its first dedicated web presence at [eatfridastacos.com](https://eatfridastacos.com). The project combines a custom public-facing website with a connected online and mobile ordering experience for pickup and delivery through SpotOn.
+Frida’s Tacos is a local Mexican restaurant for which I designed and built a dedicated website to establish its online presence and create a foundation for online ordering. The project began with the goal of providing customers with a more complete experience before moving on to an online ordering platform.
 
 ## The Need
 
-The restaurant needed a central, reliable place for customers to find essential information online while beginning to offer convenient mobile ordering and delivery. The website also needed to guide customers naturally from learning about Frida's Tacos to placing an order.
+The original goal was to introduce online ordering for the restaurant. However, Frida’s Tacos did not have its own website, and the available ordering experience took customers directly to a menu without first introducing them to the restaurant.
+
+A dedicated website would give customers a central place to discover the restaurant, explore the menu, view photos, and find essential business information before proceeding to online ordering.
 
 ## The Solution
 
-The solution separates the public website and commerce responsibilities intentionally. The custom website provides the restaurant's web presence and customer information, while SpotOn handles online ordering, transactions, and related commerce functionality.
+I considered using a traditional website builder such as Squarespace, but its recurring subscription cost made it less appealing for this project. Instead, I used Codex to help build a custom static website tailored to the restaurant's needs.
+
+I chose Cloudflare Pages for hosting, avoiding a recurring website-builder fee while keeping the site under a custom domain that costs approximately $20 per year to maintain. This approach provides a practical, low-cost foundation for the restaurant's online presence while leaving room to integrate online ordering once its POS and ordering plans are finalized.
 
 ## Website
 
-The main website at [eatfridastacos.com](https://eatfridastacos.com) is a custom static site designed to present Frida's Tacos online and give customers a clear path to restaurant information and ordering.
+The website at https://eatfridastacos.com/ provides a central place for customers to explore Frida’s Tacos. It presents essential business information, menu access, restaurant photography, and navigation designed to help visitors find what they need on desktop and mobile devices.
 
 ## Online Ordering
 
-I am helping configure, implement, and launch Frida's Tacos' SpotOn ordering presence for pickup and delivery. The website's customer journey is being connected to that system so customers can move from the restaurant website into the appropriate ordering experience.
+Online ordering was the primary goal of the project. The website was designed to provide a natural starting point for customers before directing them to the restaurant's ordering experience.
+
+The ordering integration is currently on hold while the owner evaluates the restaurant's future POS and ordering arrangements. Once those plans are finalized, the website can be connected to the selected platform without needing to rebuild the entire site.
 
 ## Technical Approach
 
-- Custom static website built with HTML, CSS, and vanilla JavaScript
-- Cloudflare Pages deployment with the `eatfridastacos.com` custom domain
-- SpotOn online and mobile ordering implementation and integration
-- No custom backend or database: SpotOn handles ordering, transactions, and related commerce functions
+- **Frontend:** HTML, CSS, and vanilla JavaScript
+- **Development:** Codex-assisted implementation with iterative review and design refinement
+- **Hosting:** Cloudflare Pages
+- **Domain:** Custom domain configuration for `eatfridastacos.com`
+- **Architecture:** Static website with no custom backend or database
+- **Planned integration:** Third-party online ordering, pending the restaurant's provider decision
 
 ## My Role
 
-I am responsible for designing and developing the restaurant's main website. I am also helping configure and launch the SpotOn mobile ordering experience and integrate the website with the ordering flow for pickup and delivery.
+I evaluated website-building options and their ongoing costs, ultimately choosing a static site over a subscription-based website builder. I directed Codex through the development process by describing the intended design and functionality, reviewing its output, and refining the site through iteration. I made the key design and layout decisions, organized the content, and worked on the domain and deployment setup.
 
 ## Status
 
-The website and SpotOn ordering setup are in final development. Final configuration, integration, and launch work are underway.
+The website is deployed and publicly accessible. Online ordering integration remains on hold until the restaurant finalizes its POS and ordering plans.
