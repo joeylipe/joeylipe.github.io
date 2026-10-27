@@ -5,13 +5,9 @@ permalink: /about/
 weight: 3
 ---
 
-# **Hi, I'm Joseph Lipe** 👋
+## About Me
 
-I am a **Data Analytics student at WGU** currently finishing up my degree.
-
-### **Beyond the Screen**
-I stay active outside of school and my projects:
-* **Brazilian Jiu-Jitsu (BJJ):** I spend a lot of my time off the clock training on the mats.
+I'm a Data Analytics student at Western Governors University. I enjoy working with technology, learning new things, and building projects that let me apply what I learn in real-world situations.
 
 
 <div class="row">
