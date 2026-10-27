@@ -3,6 +3,9 @@ name: Frida's Tacos — Website & Online Ordering
 tools: [HTML, CSS, Vanilla JavaScript, Cloudflare Pages, SpotOn]
 image: /assets/images/projects/fridas-tacos/cover.png
 description: A custom restaurant website and integrated SpotOn ordering experience for a local family-owned restaurant.
+card_title: Frida’s Tacos — Website & Online Ordering
+card_description: A website for a local Mexican restaurant, featuring essential business information, menu access, photo galleries, and online ordering.
+card_tools: [AI-Assisted Development, Domain Setup, Deployment]
 ---
 
 # Frida's Tacos — Website & Online Ordering
