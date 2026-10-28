@@ -32,7 +32,7 @@ I chose Cloudflare Pages for hosting, avoiding a recurring website-builder fee w
 
 ## Website
 
-The website at https://eatfridastacos.com/ provides a central place for customers to explore Frida’s Tacos. It presents essential business information, menu access, restaurant photography, and navigation designed to help visitors find what they need on desktop and mobile devices.
+The [Frida’s Tacos website](https://eatfridastacos.com/) provides a central place for customers to explore the restaurant. It presents essential business information, menu access, restaurant photography, and navigation designed to help visitors find what they need on desktop and mobile devices.
 
 ## Online Ordering
 
